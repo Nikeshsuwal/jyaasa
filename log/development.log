@@ -158,3 +158,15 @@ Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8b
 
 
 Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-27 15:28:10 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-27 16:56:13 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (7.4ms)
+Completed 200 OK in 56ms (Views: 55.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-27 16:56:50 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (0.1ms)
+Completed 200 OK in 52ms (Views: 51.4ms | ActiveRecord: 0.0ms)
