@@ -17145,3 +17145,924 @@ Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c4506
 
 
 Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 16:47:26 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:01:53 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (13.0ms)
+WARNING on line 47 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 49 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Completed 200 OK in 2238ms (Views: 2237.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-10551d51b6a6ea8f4c060799a5086985eefee429fd1f46469f2454dd66e52be1.css?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:01:55 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:01:56 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:03:37 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (11.4ms)
+Completed 200 OK in 77ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-10551d51b6a6ea8f4c060799a5086985eefee429fd1f46469f2454dd66e52be1.css?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:03:38 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:04:13 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (16.4ms)
+WARNING on line 47 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 49 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Completed 200 OK in 2105ms (Views: 2104.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e1f27fab771bfdd42db0c8dfe0dc1a4903064f144cc982ba1ed38b61b46f9f7b.css?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:04:16 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:05:29 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (11.8ms)
+WARNING on line 47 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 49 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Completed 200 OK in 2035ms (Views: 2034.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a80d7cf7656eb43c4a6316aaf39187562f321f7c19d61e82a0791f07e6d94fb4.css?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:05:32 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:07:03 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (20.7ms)
+WARNING on line 47 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+Completed 200 OK in 2170ms (Views: 2169.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-814b5ef29b8e414ea5a299eb07a860fc8dcb4fbaef33aa4f5b9f5c813db668fc.css?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:05 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:07:06 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (15.3ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-814b5ef29b8e414ea5a299eb07a860fc8dcb4fbaef33aa4f5b9f5c813db668fc.css?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:07:52 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (23.8ms)
+Completed 200 OK in 85ms (Views: 84.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-814b5ef29b8e414ea5a299eb07a860fc8dcb4fbaef33aa4f5b9f5c813db668fc.css?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:10:40 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (14.2ms)
+Completed 200 OK in 72ms (Views: 70.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+
+
+Started GET "/assets/application.self-814b5ef29b8e414ea5a299eb07a860fc8dcb4fbaef33aa4f5b9f5c813db668fc.css?body=1" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:42 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:10:43 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (26.0ms)
+Completed 200 OK in 86ms (Views: 85.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-814b5ef29b8e414ea5a299eb07a860fc8dcb4fbaef33aa4f5b9f5c813db668fc.css?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:11:11 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:12:09 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (13.9ms)
+Completed 200 OK in 2060ms (Views: 2059.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-432e88af4dab6a830196738351bcdc96cf879e16c0e8fe43c402f41824fc4fc8.css?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:12:11 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:13:45 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (24.0ms)
+Completed 200 OK in 2055ms (Views: 2054.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-014cf405e1cc74a9a4f34ee64963c2c3f35d2ea6862e0685c03b702647403128.css?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:13:47 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:14:14 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (18.5ms)
+Completed 200 OK in 2296ms (Views: 2295.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-576c6281141e9d2aea6b4531b1de8e6c6a1cc166101744dd4f5fb7edd783dc67.css?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:14:17 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (11.9ms)
+Completed 200 OK in 74ms (Views: 73.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-014cf405e1cc74a9a4f34ee64963c2c3f35d2ea6862e0685c03b702647403128.css?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:14:32 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:14:33 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:15:09 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (10.6ms)
+Completed 200 OK in 2072ms (Views: 2071.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-38250644dd8bdc78b5531d71943f9fd06cf874c68113a7869c22ed31cc9e24e7.css?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:15:11 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:15:25 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (10.6ms)
+Completed 200 OK in 2095ms (Views: 2094.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-0ab1b7addba09fa56f2a740c4d6ed2c683c7587e47564ef7b9b979b09e0321c5.css?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:27 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:15:28 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:15:53 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (18.1ms)
+Completed 200 OK in 118ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-38250644dd8bdc78b5531d71943f9fd06cf874c68113a7869c22ed31cc9e24e7.css?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:15:54 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (12.9ms)
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/application.self-38250644dd8bdc78b5531d71943f9fd06cf874c68113a7869c22ed31cc9e24e7.css?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:16:16 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:16:43 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (10.8ms)
+Completed 200 OK in 2407ms (Views: 2406.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7306154536f13bad5c26f9a8402c232d2e077283963887bdf94e04939303a949.css?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:16:45 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (38.6ms)
+Completed 200 OK in 132ms (Views: 131.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7306154536f13bad5c26f9a8402c232d2e077283963887bdf94e04939303a949.css?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:06 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:17:07 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (25.5ms)
+Completed 200 OK in 93ms (Views: 92.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7306154536f13bad5c26f9a8402c232d2e077283963887bdf94e04939303a949.css?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-29 17:17:49 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-29 17:17:50 +0545
