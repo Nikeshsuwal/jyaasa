@@ -1,22 +1,58 @@
 section#header
-  .container-fluid
-    .top-header
-      .logo-holder
-        =image_tag "logo.png"
-      .menu-bar
-        a href="#" menu
-section#banner
-  .container-fluid
-    .banner-content.text-center
+  nav.navbar.navbar-default
+    .container
+      .navbar-header
+        a.navbar-brand href="#" 
+          =image_tag "logo.png"
+         
+  / .container-fluid
+  /   .top-header
+  /     .logo-holder
+  /       =image_tag "logo.png"
+  /     .menu-bar
+  /       a href="#" menu
+  section#banner
+    .container
+      .banner-content.text-center
+        h2 
+          |we
+          br 
+            |Design, Build & 
+            span.bnr-chg-clr
+              | Develop Products
+        p 
+          |We are a Ruby on Rails consulting and Software Development Company.  
+          br We transform ideas into world class products/successful products
+      .arrow
+        =image_tag "arrow.png"
+
+section#what-we-do
+  .container
+    .what-we-do-content.text-center
       h2
-        br 
-          |Design, Build & 
-          span.bnr-chg-clr
-            | Develop Products
-      p 
-        |We are a Ruby on Rails consulting and Software Development Company.  
-        br We transform ideas into world class products/successful products
+        |What We Do
+      span.title-border
+      p
+        |We are Ruby on Rails experts. We specialize in agile software
+        br
+        |Development using RoR, Some Tools and Some More tools, to provide a secure, functional and
+        br
+        |flawless digital experience. 
 
+    .row
+      .col-xs-4
+        .cir1
+          =image_tag "clint-work.png"
+        button.btn.btn-default.wt-we-do-btn type="button"  client work
 
+      .col-xs-4
+        .cir2
+          =image_tag "our-product.png"
+        button.btn.btn-default.wt-we-do-btn type="button"  our product
+      .col-xs-4
+        .cir3
+          =image_tag "open-source.png"
+        button.btn.btn-default.wt-we-do-btn type="button"  open source
+section#our-work
 
     
