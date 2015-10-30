@@ -11,6 +11,31 @@ section#header
   /       =image_tag "logo.png"
   /     .menu-bar
   /       a href="#" menu
+   /  ul.nav.navbar-nav
+   / li
+   /   a data-id="#whoWeAre" data-scroll="true" href="" 
+   /    | About
+   /  li
+   /   a data-id="#workflow" data-scroll="true" href="" 
+   /      | What We Do
+   /  li
+   /    a data-id="#projects" data-scroll="true" href="" 
+   /      | Famous Freebies
+   /  li
+   /    a data-id="#uitools" data-scroll="true" href="" 
+   /      | Premium UI Tools
+   /  li
+   /    a data-id="#clients" data-scroll="true" href="" 
+   /      | Testimonials
+   /  li
+   /    a data-id="#team" data-scroll="true" href="" 
+   /      | Team
+   /  li
+   /    a data-id="#numbers" data-scroll="true" href="" 
+   /      | Numbers
+   /  li
+   /    a data-id="#contact" data-scroll="true" href="" 
+   /      | Contact
   section#banner
     .container
       .banner-content.text-center
@@ -72,6 +97,11 @@ section#our-work
         .col-xs-4
           .picture
             =image_tag "work-1.png"
+            .title-txt
+              p
+               |Jyaasa Techonology 
+              button.btn.btn-default.jyaasa-btn type="button"  case study
+
         .col-xs-4
           .picture
             =image_tag "work-2.png"
