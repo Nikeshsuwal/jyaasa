@@ -22286,3 +22286,597 @@ Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c4506
 
 
 Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 12:29:10 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:44:09 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (61.2ms)
+Completed 200 OK in 2280ms (Views: 2278.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a41bd408b80aa75105327e98f4385fb271aa4142465f3b4b6d11c26cd9011838.css?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:44:11 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:44:12 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:49:34 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (27.4ms)
+Completed 200 OK in 2172ms (Views: 2171.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-66db8d9ee390c36c4225fe5474083da971a5085bfb28c921f74ee742c14e4e10.css?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:49:36 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:50:14 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (29.5ms)
+Completed 200 OK in 2058ms (Views: 2057.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a208484363b0b188e4d812c9006c7420d7a3d94e08da3d1612c1c9673c799952.css?body=1" for 127.0.0.1 at 2015-10-30 13:50:16 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:50:16 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:50:16 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:50:16 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:50:17 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:53:10 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (34.0ms)
+Completed 200 OK in 2034ms (Views: 2033.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4f833c04728e8657d30fa9d953eefb954893df375e31750987515eb31b3873fa.css?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:53:13 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (30.6ms)
+Completed 200 OK in 92ms (Views: 90.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a208484363b0b188e4d812c9006c7420d7a3d94e08da3d1612c1c9673c799952.css?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:53:32 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:53:33 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:54:34 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (93.9ms)
+Completed 200 OK in 2011ms (Views: 2010.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-74239b3522ed3224593dfae94d5a792792fa71122f51157347ccf86aca9924ae.css?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:54:37 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:55:55 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (26.2ms)
+Completed 200 OK in 2283ms (Views: 2281.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d786eeae9cfded3a5661925f05d601805b4af4736cf4d3b1cb6678351c1ea352.css?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:55:57 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:57:20 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (39.0ms)
+Completed 200 OK in 2087ms (Views: 2086.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1a437612f88b71931268c7138db655d3bdc439599d9ccba7563a03fe05077a50.css?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:57:22 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:57:23 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-30 13:59:31 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (32.9ms)
+Completed 200 OK in 2033ms (Views: 2032.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8c3723610156aa2aae64d2677df7a704e1dd9ca70feafce4987f2f423108636f.css?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/work-1-c2f5f8362df42017dce260284693d415661293d9e280a94ad7e32bf508840b1e.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-10-30 13:59:33 +0545
