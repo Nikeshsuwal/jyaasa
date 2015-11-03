@@ -67,21 +67,22 @@ section#what-we-do
         |Development using RoR, Some Tools and Some More tools, to provide a secure, functional and
         br
         |flawless digital experience. 
+    
+    .wt-we-do-cntnt
+      .row
+        .col-md-4
+          .cir1
+            =image_tag "clint-work.png"
+          button.btn.btn-default.wt-we-do-btn type="button"  client work
 
-    .row
-      .col-md-4
-        .cir1
-          =image_tag "clint-work.png"
-        button.btn.btn-default.wt-we-do-btn type="button"  client work
-
-      .col-md-4
-        .cir2
-          =image_tag "our-product.png"
-        button.btn.btn-default.wt-we-do-btn type="button"  our product
-      .col-md-4
-        .cir3
-          =image_tag "open-source.png"
-        button.btn.btn-default.wt-we-do-btn type="button"  open source
+        .col-md-4
+          .cir2
+            =image_tag "our-product.png"
+          button.btn.btn-default.wt-we-do-btn type="button"  our product
+        .col-md-4
+          .cir3
+            =image_tag "open-source.png"
+          button.btn.btn-default.wt-we-do-btn type="button"  open source
 section#our-work
   .container
     .our-work-content.text-center
@@ -109,7 +110,7 @@ section#our-team
   .container
     .our-team-content.text-center
       h2
-        |our Team
+        |Our Team
       span.title-border3
       p
         |We are a team of young and dynamic Ruby on Rails developers with huge experience in startup and enterprise world. 
@@ -117,39 +118,40 @@ section#our-team
         |We have worked & collaborated with many companies, solved their problems and helped
         br
         |them expand their busines.
-      .row
-        .col-md-3
-          .tem-memb-pic
-            =image_tag "sagun.png"
-          .personal.details
-            h1
-              |Sagun Shrestha
-            p
-              |Ruby Developer
-        .col-md-3
-          .tem-memb-pic
-            =image_tag "kapil.png"
-          .personal.details
-            h1
-              |kapil Raj Nakhwa
-            p
-              |Ruby Developer
-        .col-md-3
-          .tem-memb-pic
-            =image_tag "kiran.png"
-          .personal.details
-            h1
-              |kiran datheputhe
-            p
-              |Front End Designer
-        .col-md-3
-          .tem-memb-pic
-            =image_tag "nikesh.png"
-          .personal.details
-            h1
-              |Nikesh Suwal
-            p
-              |Front End Designer
+      .our-tn-cnt 
+        .row
+          .col-md-3
+            .tem-memb-pic
+              =image_tag "sagun.png"
+            .personal.details
+              h1
+                |Sagun Shrestha
+              p
+                |Ruby Developer
+          .col-md-3
+            .tem-memb-pic
+              =image_tag "kapil.png"
+            .personal.details
+              h1
+                |kapil Raj Nakhwa
+              p
+                |Ruby Developer
+          .col-md-3
+            .tem-memb-pic
+              =image_tag "kiran.png"
+            .personal.details
+              h1
+                |kiran datheputhe
+              p
+                |Front End Designer
+          .col-md-3
+            .tem-memb-pic
+              =image_tag "nikesh.png"
+            .personal.details
+              h1
+                |Nikesh Suwal
+              p
+                |Front End Designer
 
         button.btn.btn-default.our-team-btn type="button"  more about our team
 
@@ -167,9 +169,10 @@ section#footer
   .container
     .footer-content
       .row
-        .col-xs-3
-          p 
-            |serive
+        .col-md-3
+          h5 
+            |Service
+            span.highline_line
           ul 
             li
               a herf="#" Workshop
@@ -177,10 +180,10 @@ section#footer
               a herf="#" Consulting
             li
               a herf="#" Development
-
-        .col-xs-3
-          p 
+        .col-md-3
+          h5
             |Sitemap
+            span.highline_line
           ul  
             li
               a herf="#" Home
@@ -198,9 +201,10 @@ section#footer
               a herf="#" Contact Us
             li 
               a herf="#" About Us
-        .col-xs-3
-          p 
+        .col-md-3
+          h5 
             |serive
+            span.highline_line
           ul
             li
               a herf="#" Emitii
@@ -208,9 +212,10 @@ section#footer
               a herf="#" Todo app
             li
               a herf="#" Talk Ruby
-        .col-xs-3
-          p 
+        .col-md-3
+          h5 
             |Connect With Us
+            span.highline_line
           ul
             li
               span
@@ -226,9 +231,6 @@ section#footer
             li 
               i.fa.fa-envelope-o 
               a herf="#" Hello@jyaasa.com
-
-
-
       .footer-btom-content
        p
          |Copyright © 2015 -2016. All Right Reserved
