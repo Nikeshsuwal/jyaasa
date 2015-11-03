@@ -41525,3 +41525,225 @@ Load paths:
   Rendered /home/gs/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
   Rendered /home/gs/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
   Rendered /home/gs/.rvm/gems/ruby-2.1.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (38.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-03 13:10:26 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (31.2ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb___2818835243611045774_18121200 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb___2818835243611045774_18121200 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 2727ms (Views: 2725.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c5d09d9d322237afd036366f5a2cc6b999f4ad817238a5cdfe284ee62090a28a.css?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/work-1-73caa770cdd4d0a4c4159cb47f1b09046ee9d716c932c8a94e2ab1c63e67ef1f.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/footer-imag-3346a56916aeb9fb51411affa99d3c2778cdcae778ac67907f0f9fa00ebcf527.png" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for 127.0.0.1 at 2015-11-03 13:10:29 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-03 13:14:16 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (27.8ms)
+WARNING on line 10 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+WARNING on line 17 of /home/gs/dev/jyaasa/app/assets/stylesheets/main.sass:
+This selector doesn't have any properties and will not be rendered.
+
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb___2818835243611045774_18121200 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb___2818835243611045774_18121200 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 2796ms (Views: 2795.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/application.self-abb6b731e03554c0638ff89e5a13a349dc14aed4b49b6cb8864f87399b0e5b08.css?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/work-1-73caa770cdd4d0a4c4159cb47f1b09046ee9d716c932c8a94e2ab1c63e67ef1f.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/assets/footer-imag-3346a56916aeb9fb51411affa99d3c2778cdcae778ac67907f0f9fa00ebcf527.png" for 127.0.0.1 at 2015-11-03 13:14:19 +0545
+
+
+Started GET "/" for 127.0.0.1 at 2015-11-03 16:10:30 +0545
+Processing by PagesController#index as HTML
+  Rendered pages/index.html.slim within layouts/application (462.8ms)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb__2362381188011948748_19593900 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+DEPRECATION WARNING: Extra .css in SCSS file is unnecessary. Rename /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.css.scss to /home/gs/dev/jyaasa/app/assets/stylesheets/fonts.scss. (called from _app_views_layouts_application_html_erb__2362381188011948748_19593900 at /home/gs/dev/jyaasa/app/views/layouts/application.html.erb:5)
+Completed 200 OK in 3986ms (Views: 3961.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cdd7aac930bbab1e826a88319c820cbffa7f56fbfa9202d3811f045705f749f5.css?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/pages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2015-11-03 16:10:34 +0545
+
+
+Started GET "/assets/logo-72211b963780429bb1b2d77c0a64f940463090d544e72da153130b6e79f7e090.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/clint-work-b566120a7f3613eb5ee387a8510861f2fc8c05bdfb5ff507036bd4677fb5f65b.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/arrow-80860289cf788a032dfb4c590265faaa8507ea138f0e1f5f20e6b7a61683d7cd.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/work-1-73caa770cdd4d0a4c4159cb47f1b09046ee9d716c932c8a94e2ab1c63e67ef1f.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/our-product-c03989f7280da9e4c51ace8ebb695cccbb967ae029e931485f7b64fc22d8c8fd.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/open-source-ce104a215b6b370e7351a2c44b23b2a948b5d013c96a3a337df586cfb5de2132.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/work-2-ec9747e7a4617b85bcbddea2e5d0f54930c42e046bb3df53c6c84a308bcb4376.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/work-3-b0a26241600c7bade41b9292462ab08fa3f5e0ccd80498bcdc21b2691601cc3a.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/sagun-b2623fab89090391ab1c08c98ec93e9dbbf020d384e8d8cc14cb8a43a5cfffdc.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/kapil-ea913e4b95c78deaa554d4854011348dbd9da1cbcc44b5dc73c15be076ae9c78.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/kiran-a1130457c2378df3105f8880026364f3ea3d3ef74e8921e6d45d94746fb63de5.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/nikesh-1a2d8bb30a6dbf464d36537ec587416f877bf3935df16abaf3dd36d515962e82.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/footer-imag-3346a56916aeb9fb51411affa99d3c2778cdcae778ac67907f0f9fa00ebcf527.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/banner-img-49118d3d61f66ad827de3b18c19fe612326800e25a9c450633a8aef95ad307b7.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545
+
+
+Started GET "/assets/our-work-banner-173f2341e14a318218db9b2812b51fffdb38dba249bc15c7cbb9fc435f3f3a8d.png" for 127.0.0.1 at 2015-11-03 16:10:35 +0545

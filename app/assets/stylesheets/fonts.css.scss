@@ -6,7 +6,8 @@
          font-url('opensans-Regular-webfont.woff') format('woff'),
          font-url('opensans-Regular-webfont.ttf') format('truetype'),
          font-url('opensans-Regular-webfont.svg#quicksandregular') format('svg');
-    font-weight: bold;
+
+    font-family: bold;
     src: font-url('opensans-bold-webfont.eot');
     src: font-url('opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
          font-url('opensans-bold-webfont.woff2') format('woff2'),
@@ -14,7 +15,7 @@
          font-url('opensans-bold-webfont.ttf') format('truetype'),
          font-url('opensans-bold-webfont.svg#quicksandregular') format('svg');
 
-    font-style: normal;
+    font-family: opensans-light;
     src: font-url('opensans-light-webfont.eot');
     src: font-url('opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
          font-url('opensans-light-webfont.woff2') format('woff2'),
