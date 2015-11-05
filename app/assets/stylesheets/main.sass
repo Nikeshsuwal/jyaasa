@@ -2,22 +2,28 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/h2
 body
-  font-family: opensans
+  font-family: opensans-regular !important
+
 h1 
   font-size: 18px
   color: #ff4542
+  font-family: opensans
   font-weight: bold
-  opensans-bold-webfont
+  font-family: opensans-regular !important
 h5
+  font-family: opensans regular
   font-size: 25px
   line-height: 40px
+  font-family: opensans-regular !important
 p
+  font-family: opensans
   font-size: 18px
   line-height: 30px
-  font:opensans-light-webfont
+  font-weight: regular
+  font-family: opensans-regular !important
 
 h2 
-  font-size: 60px
+  font-size: 55px
   line-height: 75px
 h3
   font-size: 40px
@@ -42,12 +48,14 @@ h3
   .banner-content
     h2
       line-height: 85px
-    color: #fff
-    margin-top: 100px
+      color: #fff
+      font-weight: bold
+      margin-top: 100px
   p
     line-height: 30px
     font-size: 18px
     margin-top: 70px
+    color: #fff
   .bnr-chg-clr
     color: #f13a37
     font-weight: bold
@@ -102,7 +110,6 @@ h3
     background-color: #7dacc9 
     padding: 35px 10px
   .wt-we-do-btn
-    text-align: center
     border-radius: 0px
     text-transform: uppercase
 
@@ -110,9 +117,10 @@ h3
     margin-top: 20px
     padding: 10px 20px
     color: red
-    margin-left: 120px
+    margin-left: 105px
     &:hover
-      background-color: #f13a37
+      background-color: #fe6d68
+      color: #fff
 .title-border
   width: 300px
   border-top: 1px solid #f13a37
@@ -228,6 +236,7 @@ h3
     border: none
 
   .arrow-up
+    background: asset-url("fot.png") no-repeat center
     width: 60px
     height: 60px
     line-height: 60px
@@ -285,5 +294,58 @@ h3
   display: block
   position: absolute
 
+// .menu
+//   padding: 9px 18px
+//   display: block
+//   ul
+//     list-style: none
+//   li
+//     a
+//       text-decoration: none
+.navigation-list
+  background: #fff
+  visibility: visible
+  width: 40%
+  height: 100%
+  li
+    list-style: none
+    a
+      text-decoration: none
+      display: block
+      padding: 10px 30px
+      color: #000
+      text-transform: uppercase
+      font-size: 20px
+      margin: 5px
+      cursor: pointer
+
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) 
+
+
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) 
+
+
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) 
+
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) 
+
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) 
+  #banner .banner-content h2
+    font-size: 28px
+    line-height: 35px
+  #what-we-do .wt-we-do-btn
+    margin-bottom: 20px
 
 
