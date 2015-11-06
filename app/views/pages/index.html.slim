@@ -18,7 +18,8 @@ section#header
           |We are a Ruby on Rails consulting and Software Development Company.  
           br We transform ideas into world class products/successful products
       .arrow
-        =image_tag "arrow.png"
+        =link_to "#what-we-do" do
+          =image_tag "arrow.png"
       .txt
         p
           |Learn more
@@ -74,16 +75,16 @@ section#what-we-do
     
     .wt-we-do-cntnt
       .row
-        .col-md-4
+        .col-md-4.text-center
           .cir1
             =image_tag "clint-work.png"
           button.btn.btn-default.wt-we-do-btn type="button"  client work
 
-        .col-md-4
+        .col-md-4.text-center
           .cir2
             =image_tag "our-product.png"
           button.btn.btn-default.wt-we-do-btn type="button"  our product
-        .col-md-4
+        .col-md-4.text-center 
           .cir3
             =image_tag "open-source.png"
           button.btn.btn-default.wt-we-do-btn type="button"  open source
@@ -167,7 +168,9 @@ section#footer-top
       .col-md-6
         button.btn.btn-default.footer-left-btn type="button"  get in touch
     .arrow-up
-      i.fa.fa-angle-up
+      =link_to "#banner" do
+        i.fa.fa-angle-up
+    
 
 section#footer
   .container

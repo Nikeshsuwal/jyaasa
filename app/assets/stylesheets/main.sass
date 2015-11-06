@@ -117,7 +117,6 @@ h3
     margin-top: 20px
     padding: 10px 20px
     color: red
-    margin-left: 105px
     &:hover
       background-color: #fe6d68
       color: #fff
@@ -235,18 +234,22 @@ h3
     margin-top: 30px
     border: none
 
+
+   
   .arrow-up
     background: asset-url("fot.png") no-repeat center
     width: 60px
     height: 60px
     line-height: 60px
     border-radius: 50%
+    
     background: #212024
-    color: #fff
     font-size: 50px
     text-align: center
     margin: 0 auto
     margin-top: 105px
+    i
+      color: #fff
 
 #footer
   background-color: #212024
@@ -323,29 +326,77 @@ h3
 /* Large desktops and laptops */
 @media (min-width: 1200px) 
 
-
-
 /* Landscape tablets and medium desktops */
 @media (min-width: 992px) and (max-width: 1199px) 
-
+#footer-top .footer-left-btn
+  padding: 19px 20px
+  line-height: 0
+#footer-top .footer-left-btn
+  margin-left: 280px
 
 
 /* Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 991px) 
+
+#what-we-do .wt-we-do-btn
+  margin-bottom: 20px
+#our-work .work-group .picture
+  margin-bottom: 20px
+#footer-top .footer-top-content
+  height: 0px
+/*#footer-top .footer-left-btn
+  margin-top: -66px
+  margin-left: 550px*/
+#footer-top .footer-right-btn
+  padding: 10px
+
 
 
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) 
 
+  #banner .banner-content h2
+    margin-top: 0px
+  #footer-top .footer-left-btn
+    margin-top: -63px
+    margin-left: 530px
+
+@media (max-width: 768px) 
+
+  #banner .banner-content h2
+    margin-top: 0px
+  #footer-top .footer-left-btn
+    margin-top: -63px
+    margin-left: 530px
+
+
 
 /* Portrait phones and smaller */
 
 @media (max-width: 480px) 
   #banner .banner-content h2
-    font-size: 28px
-    line-height: 35px
+    margin-top: 80px
+  #banner .banner-content h2
+    font-size: 35px
+    line-height: 50px
+  #banner p,#what-we-do p,#our-work p
+    line-height: 25px
+    font-size: 16px
+  
   #what-we-do .wt-we-do-btn
     margin-bottom: 20px
-
-
+  #what-we-do .wt-we-do-cntnt
+    margin-bottom: -39px
+  #our-work .work-group .picture
+    margin-bottom: 20px
+  .our-work-btn
+    margin-top: 30px
+    margin-bottom: 60px
+  .our-tn-cnt
+    margin-bottom: 60px
+  #footer-top .footer-top-content
+    height: 0px
+  #footer-top .footer-left-btn
+    margin-top: 10px
+    margin-left: 0px
