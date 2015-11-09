@@ -1,10 +1,37 @@
 section#header
   nav.navbar.navbar-default
     .container
-      .navbar-header
-        a.navbar-brand href="#" 
-          =image_tag "logo.png"
-         
+      .row
+        .col-md-6
+         .navbar-header
+            a.navbar-brand href="#" 
+             =image_tag "logo.png"
+
+        .col-md-6
+          .menu-bar
+            a.menu-bar href="#"
+              i.fa.fa-bars
+            .menu-txt
+              p
+                |menu
+
+      .parallax-nav
+      .parallax-nav-second
+      .parallax-nav-third
+      .parallax-nav-fourth
+    / .side-menu
+    /   ul 
+    /     li
+    /       a herf="#" home
+    /     li
+    /       a herf="#" what we do
+    /     li
+    /       a herf="#" our work
+    /     li
+    /       a herf="#" our team
+    
+  
+
   section#banner
     .container
       .banner-content.text-center
@@ -23,6 +50,8 @@ section#header
       .txt
         p
           |Learn more
+
+
       / .menu
       /   ul
       /     li
