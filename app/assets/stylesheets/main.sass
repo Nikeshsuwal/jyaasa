@@ -44,7 +44,45 @@ h3
   margin-top: 50px
   margin-left: 100px
 
-.menu-bar 
+.menu-part 
+  background: #fff
+  width: 70%
+  height: 100%
+  margin-left: 273px
+  text-align: center
+.menu-part 
+  li
+    a
+      list-style: none
+      padding: 10px
+
+.menu-part 
+  p 
+    color: #000
+    font-size: 18px
+    padding: 10px 20px
+    background: #eee
+
+
+.menu-part
+  a 
+  display: block
+  color: #fff
+  font-size: 18px
+
+.menu-part 
+  a
+    :hover 
+      background: #258ecd
+
+
+.menu-part 
+  a
+  :active 
+    background: #afdefa
+    color: #47a3da
+
+/*.menu-bar 
   font-size: 30px
   margin-left: 264px
   margin-top: 50px
@@ -63,7 +101,6 @@ h3
   border-radius: 50%
   background: #fff
   margin: 0px 0px 15px
-  float: right
 
 
 #banner
@@ -104,7 +141,7 @@ h3
     ul
       margin: 0px 0px 15px
       list-style: none
-      text-decoration: none*/
+      text-decoration: none
   
 
   
@@ -331,12 +368,11 @@ h3
   display: block
   position: absolute
 
-
-.navigation-list
+/*.menu-section
   background: #fff
-  visibility: visible
-  width: 40%
+  width: 30%
   height: 100%
+  float: right
   li
     list-style: none
     a
@@ -348,6 +384,113 @@ h3
       font-size: 20px
       margin: 5px
       cursor: pointer
+      display: block
+      text-align: center
+      &:hover
+        background-color: #fe6d68
+        width: 100%
+        color: #fff
+  .menu-toggle
+    width: 40px
+    height: 30px
+    position: absolute
+    top: 20px
+    right: 25px
+    cursor: pointer
+
+
+  
+
+
+  /*menu-section
+    background: #fff
+    margin: 0px
+    padding: 0px
+
+
+  .menu-toggle 
+    width: 40px
+    height: 30px
+    position: absolute
+    top: 20px
+    right: 25px
+    cursor: pointer
+    li
+      a
+        color: #000
+    
+    &.on 
+      .one 
+       
+      .two
+        opacity: 0px
+
+      .three 
+    
+
+  .one,
+  .two,
+  .three
+    width: 100%
+    height: 5px
+    background: white
+    margin: 6px auto
+    backface-visibility: hidden
+    
+
+  nav ul
+    margin: 0
+    padding: 0
+    font-family: Open Sans
+    list-style: none
+    margin: 4em auto
+    text-align: center
+    
+    &.hidden
+      display: none  
+    &.on 
+      .one 
+       
+      .two
+        opacity: 0px
+
+      .three 
+    
+
+  .one,
+  .two,
+  .three
+    width: 100%
+    height: 5px
+    background: white
+    margin: 6px auto
+    backface-visibility: hidden
+    
+      
+    a 
+      text-decoration: none
+      color: white
+      font-size: 3em
+      line-height: 1.5
+      width: 100%
+      display: block
+      &:hover 
+        background-color: #fe6d68
+
+  .menu-section 
+    &.on 
+    z-index: 10
+    width: 70%
+    display: block
+    background-color: #eee
+    position: absolute
+    margin-left: 252px
+    ul
+      li
+        padding: 20px
+        color: #000
+        text-decoration: none
+  
 
 
 
@@ -366,10 +509,12 @@ h3
 
 
 
-/* Large desktops and laptops */
+
+
+/* Large desktops and laptops 
 @media (min-width: 1200px) 
 
-/* Landscape tablets and medium desktops */
+/* Landscape tablets and medium desktops 
 @media (min-width: 992px) and (max-width: 1199px) 
 #footer-top .footer-left-btn
   padding: 19px 20px
@@ -378,7 +523,7 @@ h3
   margin-left: 280px
 
 
-/* Portrait tablets and small desktops */
+/* Portrait tablets and small desktops 
 @media (min-width: 768px) and (max-width: 991px) 
 
 #what-we-do .wt-we-do-btn
