@@ -6,27 +6,44 @@ section#header
          .navbar-header
             a.navbar-brand href="#" 
              =image_tag "logo.png"
-        .col-md-6
-          .menu-part
-            p 
-              |Menu
-              ul
-                li
-                  a herf="#" Home
-                li
-                  a herf="#" work
-                li
-                  a herf="#" Team
-                li
-                  a herf="#" Process
-                li
-                  a herf="#" community
-                li
-                  a herf="#" Blog
-                li
-                  a herf="#" Contact Us
-                li
-                  a herf="#" About Us
+   
+      .wrap
+        a.menu-link href="#menu"
+          i.fa.fa-bars
+
+
+          
+   
+    nav#menu.panel role="navigation" 
+      ul
+        li
+          .close
+            a.menu-close href="#menu"
+              i.fa.fa-times
+              
+        li
+          a href="#"  Home
+        li
+          a href="#"  Work
+        li
+          a href="#"  Team
+        li
+          a href="#"  Process
+        li
+          a href="#"  Community
+        li
+          a href="#"  Blog
+        li
+          a href="#"  Contact Us
+        li
+          a href="#"  About Us
+
+
+
+
+    / li
+    /   a href="#"  What's Going Ahn
+
 
   section#banner
     .container
@@ -198,7 +215,7 @@ section#footer
               a herf="#" About Us
         .col-md-3
           h5 
-            |serive
+            |Product
             span.highline_line
           ul
             li
