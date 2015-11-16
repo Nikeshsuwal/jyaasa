@@ -82,11 +82,6 @@ h3
       list-style: none
       text-align: center
       border-radius: 0px
-
-
-
-
-
 #banner
   .banner-content
     h2
@@ -207,10 +202,48 @@ h3
     color: #fff
     padding: 10px 20px
     margin-top: 60px
-    margin-bottom: 130px
-   
+    margin-bottom: 125px
 
- 
+
+
+  .picture
+    display: inline-block
+    position: relative
+    margin: 15px 0px
+    width: 100%
+    height: 100%
+    border: 1px solid #EEE
+    overflow: hidden
+    &:hover >a>.mask
+      top: 0px
+      z-index: 10
+
+.mask
+  position: absolute
+  height: 100%
+  width: 361px
+  left: 0px
+  top: -100%
+  background: rgba(22, 199, 226, 0.88) none repeat scroll 0% 0%
+  transition: all 0.6s ease 0s
+    
+  p
+    font-size: 25px
+    line-height: 32px
+    color: #fff
+    text-align: center
+    text-transform: capitalize
+    padding: 50px 0px 0px 0px
+  .mask-btn
+    text-align: center
+    border-radius: 0px
+    text-transform: capitalize
+    border-color: #fff
+    background: none
+    color: #fff
+    padding: 10px
+
+
 #our-team
   background-color: #ececec
 
@@ -232,7 +265,7 @@ h3
   .tem-memb-pic
     margin-top: 50px
   .our-tn-cnt
-    margin-bottom: 130px
+    margin-bottom: 155px
   .our-team-btn
     text-align: center
     border-radius: 0px
@@ -241,7 +274,7 @@ h3
     background: none
     color: #f13a37
     padding: 10px 20px
-    margin-top: 30px
+    margin-top: 40px
 
 
 #footer-top
@@ -351,6 +384,39 @@ nav#menu.panel
 
 
 
+    #section0 img
+    #section1 img
+      margin: 20px 0 0 0
+    
+    #section2 img
+      margin: 20px 0 0 52px
+    
+    #section3 img
+      bottom: 0px
+      position: absolute
+      margin-left: -420px
+    
+    .intro p
+      width: 50%
+      margin: 0 auto
+      font-size: 1.5em
+    
+    .twitter-share-button
+      position: absolute
+      z-index: 99
+      right: 149px
+      top: 9px
+    
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -380,7 +446,6 @@ Portrait tablets and small desktops
 #what-we-do .wt-we-do-btn
   margin-bottom: 20px
 #our-work .work-group .picture
-  margin-bottom: 20px
 #footer-top .footer-top-content
   height: 0px
 #footer-top .footer-right-btn

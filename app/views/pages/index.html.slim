@@ -60,10 +60,22 @@ section#header
       .arrow
         =link_to "#what-we-do" do
           =image_tag "arrow.png"
+      
       .txt
         p
           |Learn more
-    
+
+
+ul#menu
+  li data-menuanchor="firstPage" 
+    a href="#firstPage"  First slide
+  li data-menuanchor="secondPage" 
+    a href="#secondPage"  Second slide
+  li data-menuanchor="3rdPage" 
+    a href="#3rdPage"  Third slide
+  li data-menuanchor="4thpage" 
+    a href="#4thpage"  Fourth slide
+
 
 section#what-we-do
   .container
@@ -106,13 +118,29 @@ section#our-work
         .work-group
           .col-md-4
             .picture
-              =image_tag "work-1.png"
+              a href="http://measuredvoice.com/" target="_blank"
+                .mask
+                  p
+                    |measured voice
+                  button.btn.btn-default.mask-btn type="button"  case stydy
+                =image_tag "work-1.png"
           .col-md-4
             .picture
-              =image_tag "work-2.png"
+              a href="http://cookedlocal.com/" target="_blank"
+                .mask
+                  p
+                    |cooked local
+                  button.btn.btn-default.mask-btn type="button"  case stydy
+                =image_tag "work-2.png"
           .col-md-4
             .picture
-              =image_tag "work-3.png"
+              a href="http://www.doubledog.it/" target="_blank"
+                .mask
+                  p
+                    |Double Dog
+                  button.btn.btn-default.mask-btn type="button"  case stydy
+                =image_tag "work-3.png"
+        
 
       button.btn.btn-default.our-work-btn type="button"  see more of our work
 
