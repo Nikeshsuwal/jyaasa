@@ -10,6 +10,7 @@ h1
   font-family: opensans
   font-weight: bold
   font-family: opensans-regular !important
+  cursor: pointer
 h5
   font-family: opensans regular
   font-size: 25px
@@ -40,9 +41,12 @@ h3
   font-family: open sans, helvetica, sans-serif 
   height: 775px
   width: 100%
+
 .logo-holder
   margin-top: 50px
   margin-left: 100px
+.navbar-brand
+  padding-top: 35px
 #menu
   width: 20.625em !important
 
@@ -51,6 +55,8 @@ h3
   color: #000
   height: 450px
   border-radius: 0px
+
+
   ul
     padding: 0px
     li
@@ -61,8 +67,15 @@ h3
         font-size: 20px
         display: block
         &:hover
-          background-color: #b31512
+          background-color: #ff4542
           color: #fff
+    li
+      .close a
+        display: block
+        &:hover
+          background-color: #fff
+          color: #000
+
 .wrap
   top: -15px
   right: 0px
@@ -107,6 +120,7 @@ h3
     margin: 0 auto
     margin-top: 160px
     padding-top: 20px
+    cursor: pointer
   .txt
     p
       color: #fff
@@ -203,31 +217,32 @@ h3
     padding: 10px 20px
     margin-top: 60px
     margin-bottom: 125px
-
+    &:hover
+      background-color: #fe6d68
+      color: #fff
 
 
   .picture
     display: inline-block
     position: relative
     margin: 15px 0px
-    width: 100%
-    height: 100%
     border: 1px solid #EEE
     overflow: hidden
     &:hover >a>.mask
       top: 0px
       z-index: 10
-
-.mask
-  position: absolute
-  height: 100%
-  width: 361px
-  left: 0px
-  top: -100%
-  background: rgba(22, 199, 226, 0.88) none repeat scroll 0% 0%
-  transition: all 0.6s ease 0s
+    a img
+      width: 100%
+  .mask
+    position: absolute
+    height: 100%
+    width: 100%
+    left: 0px
+    top: -100%
+    background: rgba(22, 199, 226, 0.88) none repeat scroll 0% 0%
+    transition: all 0.6s ease 0s
     
-  p
+    p
     font-size: 25px
     line-height: 32px
     color: #fff
@@ -275,6 +290,9 @@ h3
     color: #f13a37
     padding: 10px 20px
     margin-top: 40px
+    &:hover
+      background-color: #fe6d68
+      color: #fff
 
 
 #footer-top
@@ -286,6 +304,14 @@ h3
   font-family: open sans, helvetica, sans-serif
   background-color: #212024
   height: 144px
+  .txt
+    background-color: #c3221f
+    padding: 10px 125px
+    color: #fff
+    font-size: 20px
+    margin-top: 30px
+    margin-left: -200px
+    font-weight: bold
 
   .footer-left-btn
     text-align: center
@@ -297,18 +323,10 @@ h3
     padding: 10px 20px
     margin-top: 30px
     margin-left: 400px
-
-  .footer-right-btn
-    text-align: center
-    border-radius: 0px
-    text-transform: normal
-    font-weight: bold
-    border-color: #fff
-    background: #c3221f
-    color: #fff
-    padding: 10px 40px 10px 80px
-    margin-top: 30px
-    border: none
+    &:hover
+      background-color: #fe6d68
+      color: #fff
+ 
 
 
    
@@ -331,28 +349,37 @@ h3
   background-color: #212024
   .footer-content
     margin-top: 80px
-    line-height: 30px
-
+    line-height: 30x
 
   h5
     color: #c2c0c0
     border-bottom: 1px solid #454b53
 
 
-  a,
-  i
+  a
     color: #a1a2a4
     text-decoration: none
-  ul
-    padding-left: 0px
-  li
-    list-style: none
+  ul,
+    li
+      padding-left: 0px
+      list-style: none
+      margin-left: -40px
+      cursor: pointer
+      color: #c2c0c0
+  li,
+    a
+      
+      &:hover
+        color: #fff
   span
     i
       border: 1px solid #454b53
       margin-right: 10px
       padding: 5px 10px
       margin-bottom: 10px
+      &:hover
+        background-color: #fe6d68
+        color: #fff
   li
     i
       margin-right: 10px
@@ -384,84 +411,65 @@ nav#menu.panel
 
 
 
-    #section0 img
-    #section1 img
-      margin: 20px 0 0 0
-    
-    #section2 img
-      margin: 20px 0 0 52px
-    
-    #section3 img
-      bottom: 0px
-      position: absolute
-      margin-left: -420px
-    
-    .intro p
-      width: 50%
-      margin: 0 auto
-      font-size: 1.5em
-    
-    .twitter-share-button
-      position: absolute
-      z-index: 99
-      right: 149px
-      top: 9px
-    
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Large desktops and laptops 
+//Large desktops and laptops 
 @media (min-width: 1200px) 
+  #footer-top .txt
+    margin-left: -200px
+    padding: 10px 45px
+
+
 
 Landscape tablets and medium desktops 
 @media (min-width: 992px) and (max-width: 1199px) 
-#footer-top .footer-left-btn
-  padding: 19px 20px
-  line-height: 0
-#footer-top .footer-left-btn
-  margin-left: 280px
+  #footer-top .footer-left-btn
+    padding: 19px 20px
+    line-height: 0
+  #footer-top .footer-left-btn
+    margin-left: 280px
+  #footer-top .txt
+    padding: 10px 66px
+    font-size: 14px
+    margin-left: -33px
 
 
-Portrait tablets and small desktops 
+
+//Portrait tablets and small desktops 
 @media (min-width: 768px) and (max-width: 991px) 
+  #banner .arrow
+    margin-top: 133px
+  #what-we-do .wt-we-do-btn
+    margin-bottom: 20px
+  #our-work .work-group .picture
+  #footer-top .footer-top-content
+    height: 0px
+  #footer-top .footer-right-btn
+    padding: 10px
 
-#what-we-do .wt-we-do-btn
-  margin-bottom: 20px
-#our-work .work-group .picture
-#footer-top .footer-top-content
-  height: 0px
-#footer-top .footer-right-btn
-  padding: 10px
 
 
 
-
-Landscape phones and portrait tablets 
+//Landscape phones and portrait tablets 
 @media (max-width: 767px) 
+
+  #banner .arrow
+    margin-top: 133px
+  #what-we-do .wt-we-do-btn
+    margin-bottom: 30px
 
   #banner .banner-content h2
     margin-top: 0px
-  #footer-top .footer-left-btn
-    margin-top: -63px
-    margin-left: 530px
+
+  #footer-top .txt
+    padding: 10px 20px
+    font-size: 14px
+    margin-left: -30px
+    margin-right: 300px
+  #footer-top .arrow-up
+    margin-top: 15px
 
 @media (max-width: 768px) 
 
@@ -477,16 +485,25 @@ Portrait phones and smaller
 
 @media (max-width: 480px) 
   #banner .banner-content h2
-    margin-top: 80px
+    margin-top: 30px
   #banner .banner-content h2
     font-size: 35px
-    line-height: 50px
+    line-height: 40px
+  #banner .banner-content p
+    margin-top: 30px
+
+  #banner .arrow
+    margin-top: 75px
+  #our-work .mask
+    width: 100%
+  #our-work .picture
+
   #banner p,#what-we-do p,#our-work p
     line-height: 25px
     font-size: 16px
   
   #what-we-do .wt-we-do-btn
-    margin-bottom: 20px
+    margin-bottom: 30px
   #what-we-do .wt-we-do-cntnt
     margin-bottom: -39px
   #our-work .work-group .picture
@@ -496,8 +513,22 @@ Portrait phones and smaller
     margin-bottom: 60px
   .our-tn-cnt
     margin-bottom: 60px
+  #footer-top .txt
+    padding: 10px 20px
+    font-size: 14px
+    margin-top: 10px
+    margin-left: -30px
+    margin-right: 10px
   #footer-top .footer-top-content
     height: 0px
+
+  #footer-top .arrow-up
+    margin-top: 95px
   #footer-top .footer-left-btn
     margin-top: 10px
     margin-left: 0px
+
+@media only screen and (min-device-width: 320px)
+
+  margin-top: 74px
+  
