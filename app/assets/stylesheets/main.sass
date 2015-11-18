@@ -50,6 +50,7 @@ h3
 #menu
   width: 20.625em !important
 
+
 #menu.panel 
   background-color: #fff
   color: #000
@@ -82,9 +83,12 @@ h3
   z-index: 20px
 .menu-link
   color: #fff
-  font-size: 40px
   line-height: 0px
   float: right
+  &:hover
+    color: #ff4542
+  i
+    font-size: 30px
 
  
 
@@ -456,12 +460,14 @@ Landscape tablets and medium desktops
 @media (max-width: 767px) 
 
   #banner .arrow
-    margin-top: 133px
+    margin-top: 72px
   #what-we-do .wt-we-do-btn
     margin-bottom: 30px
 
   #banner .banner-content h2
     margin-top: 0px
+  #banner p
+    margin-top: 10px
 
   #footer-top .txt
     padding: 10px 20px
@@ -472,38 +478,69 @@ Landscape tablets and medium desktops
     margin-top: 15px
 
 @media (max-width: 768px) 
-
+  #header
+    height: 578px
+  #banner p
+    margin-top: 35px
+  #banner .arrow
+    margin-top: 86px
   #banner .banner-content h2
     margin-top: 0px
+    font-size: 40px
+    line-height: 50px
+  #what-we-do h3
+    margin-top: 70px
   #footer-top .footer-left-btn
     margin-top: -63px
     margin-left: 530px
 
 
-
 Portrait phones and smaller 
 
 @media (max-width: 480px) 
-  #banner .banner-content h2
-    margin-top: 30px
-  #banner .banner-content h2
-    font-size: 35px
-    line-height: 40px
-  #banner .banner-content p
-    margin-top: 30px
-
+  #header
+    height: 538px
+  .navbar-brand > img
+    width: 75%
+  .menu-link i
+    margin-top: -15px
   #banner .arrow
-    margin-top: 75px
+    margin-top: 84px
+    width: 50px
+    height: 50px
+    padding-top: 15px
+  
+  .banner-content p
+    margin-top: 30px
+  .navbar-brand > img
+    margin-top: -20px
+  .banner-content h2
+    font-size: 40px
+    line-height: 50px
+
+  .arrow
+    margin-top: 59px
   #our-work .mask
     width: 100%
-  #our-work .picture
+  #our-work .our-work-btn
+    margin-top: -25px
+    margin-bottom: 48px
+  #our-team .our-team-btn
+    margin-top: 16px
+    margin-bottom: -12px
+  #what-we-do h3
+    margin-top: 65px
 
-  #banner p,#what-we-do p,#our-work p
-    line-height: 25px
-    font-size: 16px
+  #banner p,#what-we-do p,#our-work p,#our-team p
+    line-height: 20px
+    font-size: 14px
   
-  #what-we-do .wt-we-do-btn
-    margin-bottom: 30px
+ 
+  #what-we-do .wt-we-do-cntnt
+    margin-top: 20px
+  #our-team .our-tn-cnt
+    margin-bottom: 50px
+
   #what-we-do .wt-we-do-cntnt
     margin-bottom: -39px
   #our-work .work-group .picture
@@ -513,12 +550,7 @@ Portrait phones and smaller
     margin-bottom: 60px
   .our-tn-cnt
     margin-bottom: 60px
-  #footer-top .txt
-    padding: 10px 20px
-    font-size: 14px
-    margin-top: 10px
-    margin-left: -30px
-    margin-right: 10px
+  
   #footer-top .footer-top-content
     height: 0px
 
@@ -528,7 +560,48 @@ Portrait phones and smaller
     margin-top: 10px
     margin-left: 0px
 
-@media only screen and (min-device-width: 320px)
+@media only screen and (max-device-width: 320px)
+  #banner .banner-content h2
+    margin-top: 15px
 
-  margin-top: 74px
+  .menu-link i
+    margin-top: -15px
   
+  #header .navbar-brand > img
+    width: 75%
+    margin-top: -15px
+  #header
+    height: 481px
+  #banner .arrow
+    margin-top: 84px
+    width: 50px
+    height: 50px
+    padding-top: 15px
+   
+  
+  #banner .banner-content h2
+    font-size: 30px
+    line-height: 40px
+  #banner .arrow
+    margin-top: 43px
+  #what-we-do h3,#our-work h3,#our-team h3
+    font-size: 30px
+    line-height: 26px
+    margin-top: 38px
+  #what-we-do .wt-we-do-btn
+    margin-bottom: 60px
+  #footer-top .txt
+    padding: 10px 0px
+    font-size: 11px
+    margin-top: 10px
+    margin-left: -30px
+    margin-right: 10px
+  #our-work h3
+    margin-top: -25px
+  #footer-top .footer-left-btn
+    padding: 5px 10px
+    margin-left: 70px
+  #our-team .tem-memb-pic
+    margin-top: 28px
+  #footer .footer-content
+    margin-top: 15px
