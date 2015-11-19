@@ -10,6 +10,7 @@ $('.js-nav').on('click', function(){
 
 
 
+
 $(document).ready(function () {
       var bigSlideAPI = ($('.menu-link').bigSlide({
           side: 'right',
@@ -29,3 +30,20 @@ $(document).ready(function () {
     }, 2000);
   });
 });
+
+
+$(document).ready(function(){       
+   var scroll_start = 000
+   var startchange = $('#startchange')
+   var offset = startchange.offset()
+    if (startchange.length){
+  }
+})
+ $(document).scroll(function() { 
+    scroll_start = $(this).scrollTop()                                                                                                                                                                                                                                                        
+    if(scroll_start > offset.top) {
+        $(".menu-link").css('background-color', '#fff')
+     } else {
+        $('.menu.link').css('background-color', '#000')
+     }
+  })
