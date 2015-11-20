@@ -32,18 +32,16 @@ $(document).ready(function () {
 });
 
 
-$(document).ready(function(){       
-   var scroll_start = 000
-   var startchange = $('#startchange')
-   var offset = startchange.offset()
-    if (startchange.length){
-  }
+
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(window).scrollTop() > $(window).height()){
+            $(".menu-link").css({"color":"#000"});   
+        }
+        else{
+          $(".menu-link").css({"color":"#fff"});   
+        }
+
+    })
+      
 })
- $(document).scroll(function() { 
-    scroll_start = $(this).scrollTop()                                                                                                                                                                                                                                                        
-    if(scroll_start > offset.top) {
-        $(".menu-link").css('background-color', '#fff')
-     } else {
-        $('.menu.link').css('background-color', '#000')
-     }
-  })
