@@ -3,4 +3,7 @@ class PagesController < ApplicationController
   end
   def article
   end
+  def work
+    
+  end
 end

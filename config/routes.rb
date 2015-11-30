@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   resources :pages do
     collection do
       get 'article'
+      get 'work'
     end
   end
   
