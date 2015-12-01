@@ -30,6 +30,10 @@ h3
   font-size: 40px
   line-height: 55px
   font-weight: bold
+h6
+  font-size: 20px
+  line-height: 30px
+  color: #a1adb8
 
 #header
   background: asset-url("banner-img.png") no-repeat center
@@ -444,12 +448,14 @@ nav#menu.panel
   h3
     color: #FF4542
     margin-top: 70px
-.work-img
-  margin-bottom: 50px
+
+
 .txt-details
-  margin-left: 94px
+  padding: 10px 0px 0px 50px
   p
     text-align: justify
+    font-size: 16px
+    line-height: 25px
     span
       color: #1565c0
       cursor: pointer
@@ -460,7 +466,7 @@ nav#menu.panel
     font-size: 20px
 .work-img
   position: relative
-  margin: 15px 0px
+  margin: 20px 0px
   border: 1px solid #EEE
   overflow: hidden
   &:hover >a>.effect
@@ -490,24 +496,22 @@ nav#menu.panel
   border-color: #fff
   background: none
   color: #fff
-  padding: 10px
+  padding: 5px 10px
 
 .pagination
   li
     display: inline
   a
-    background: #f4f4f4
+    background: #dddddd
     color: #999999
     padding: 5px 10px
     text-decoration: none
     &:hover
-      background: #dddddd
+      background: #ff4542
+      color: #fff
 
-    
 .next
-  a
-    background: #f4f4f4
-    float: right
+  padding-left: 100px
 
 
 
@@ -613,6 +617,18 @@ Landscape tablets and medium desktops
     margin-right: 300px
   #footer-top .arrow-up
     margin-top: 15px
+  #blog-main-cnt .blog-cnt h6 
+    font-size: 17px
+    line-height: 25px
+  #blog-main-cnt .blog-cnt h5
+    line-height: 28px
+    font-size: 14px
+  .txt-details
+    padding: 0px
+  .txt-details p
+    font-size: 15px
+  .effect
+    padding: 75px 0px 0px
 @media (max-width: 768px) 
   #header
     height: 578px
@@ -676,6 +692,36 @@ Portrait phones and smaller
 
   #what-we-do .wt-we-do-cntnt
     margin-bottom: -39px
+  #blog-main-cnt .blog-cnt h3
+    font-size: 30px
+  #blog-main-cnt .blog-cnt h5
+    font-size: 14px
+    line-height: 25px
+  #blog-main-cnt .blog-cnt h6 
+    font-size: 9px
+    line-height: 24px
+  #blog-main-cnt .blog-cnt p
+    font-size: 13px
+    line-height: 23px
+  #work-main-cnt h3
+    margin-top: 25px
+    font-size: 30px
+    margin-bottom: -10px
+
+  #work-main-cnt h6
+    font-size: 12px
+    line-height: 0px
+
+  .txt-details
+    padding: 0px
+  .txt-details p
+    font-size: 12px
+    line-height: 20px
+  .effect
+    padding: 40px 0px 0px
+  .btn
+    padding: 5px
+    font-size: 10px
 @media screen and (max-device-width:320px) and (max-device-height:480px)
   #header
     height: 481px
@@ -724,6 +770,38 @@ Portrait phones and smaller
 
   #footer .footer-content
     margin-top: 15px
+  #blog-main-cnt .blog-cnt h3
+    font-size: 30px
+  #blog-main-cnt .blog-cnt h5
+    font-size: 14px
+    line-height: 24px
+  .blog-cnt
+    h6
+      font-size: 11px
+      line-height: 23px
+  #blog-main-cnt .blog-cnt p
+    font-size: 13px
+    line-height: 23px
+  #work-main-cnt h3
+    margin-top: 25px
+    font-size: 30px
+    margin-bottom: -10px
+
+  #work-main-cnt h6
+    font-size: 12px
+    line-height: 0px
+
+  .txt-details
+    padding: 0px
+  .txt-details p
+    font-size: 12px
+    line-height: 20px
+  .effect
+    padding: 20px 0px 0px
+  .btn
+    padding: 5px 5px
+    font-size: 10px
+
 
 @media screen and (max-device-width:320px) and (device-height:568px)
   #header
@@ -745,6 +823,7 @@ Portrait phones and smaller
   #footer-top .footer-left-btn
     padding: 5px 10px
     margin-left: 70px
+ 
 
 @media only screen and (max-device-width: 320px)
  
