@@ -4,6 +4,8 @@ class PagesController < ApplicationController
   def article
   end
   def work
+  end
+  def contact
     
   end
 end

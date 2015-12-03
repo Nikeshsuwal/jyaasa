@@ -9,6 +9,7 @@ Rails.application.routes.draw do
     collection do
       get 'article'
       get 'work'
+      get 'contact'
     end
   end
   
