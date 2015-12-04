@@ -524,17 +524,17 @@ nav#menu.panel
     color: #FF4542
     margin-top: 70px
     margin-bottom: 0px
-.tap-bar
+
+.tap-btn
   height: 40px
   background-color: #0f3f63
   margin-top: 35px
-  a
-    color: #fff 
-    text-decoration: none
-    text-transform: uppercase
-    border-right: 1px solid #6b98b9
-    line-height: 40px
-    padding: 10px 128px
+  color: #fff
+  text-transform: uppercase 
+  padding: 0px 146px
+  border-color: #6b98b9    
+
+
 .form-cont
   font-size: 16px
   padding-top: 50px
@@ -555,18 +555,22 @@ nav#menu.panel
     border-radius: 0px
     border: 1px solid #ccc
 .submit-btn
-  text-align: center
   border-radius: 0px
   background: #f13a37
   color: #fff
+  margin-left: 25%
+  margin-bottom: 80px
   &:hover
     background: #ff4542
     color: #fff
+.map
+  padding-bottom: 80px
 .form-cont,
 .contact-info
   p
     font-size: 14px
     color: #343d46
+    line-height: 22px
 .full-contant
   p
     color: #343d46
@@ -575,7 +579,37 @@ nav#menu.panel
   padding-top: 50px
   h1
     color: #273640
+.form-group
+  margin-bottom: 0px
+.input-group
+  margin-bottom: 20px
+.nav-tabs
+  border-bottom: none
+.nav-tabs > li > a
+  background-color: #0f3f63
+  margin-right: 0px
+  border: none
+  border-radius: 0px
+  color: #fff
+  padding: 10px 148px
+  text-transform: uppercase
+  &:hover
+    background-color: #6b98b9
 
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus
+  background-color: #d0312e
+  color: #fff
+  border: none
+  border-radius: 0px
+
+.form-group select
+  border-radius: 0px
+.fm input
+  border: none
+.submit-btn
+  margin-left: 0%
 
 
 
@@ -855,7 +889,8 @@ Portrait phones and smaller
 
   .txt-details
     padding: 0px
-  .txt-details p
+  .txt-details p,
+  .full-contant p
     font-size: 12px
     line-height: 20px
   .effect
@@ -863,6 +898,10 @@ Portrait phones and smaller
   .btn
     padding: 5px 5px
     font-size: 10px
+  #contact-main-cnt h3
+    font-size: 30px
+    margin-top: 38px
+
 
 
 @media screen and (max-device-width:320px) and (device-height:568px)

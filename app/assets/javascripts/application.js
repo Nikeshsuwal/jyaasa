@@ -1,4 +1,5 @@
 //= require jquery
+//= require bootstrap-sprockets
 //= require classie
 //= require showRight
 //= require slide
@@ -7,7 +8,6 @@
 $('.js-nav').on('click', function(){
   $('.js-nav-move').toggleClass('nav-open');
 });
-
 
 
 
@@ -34,14 +34,13 @@ $(document).ready(function () {
 
 
 $(document).ready(function(){
-    $(window).scroll(function(){
-        if($(window).scrollTop() > $(window).height()){
-            $(".menu-link").css({"color":"#000"});   
-        }
-        else{
-          $(".menu-link").css({"color":"#fff"});   
-        }
+  $(window).scroll(function(){
+    if($(window).scrollTop() > $(window).height()){
+        $(".menu-link").css({"color":"#000"});   
+    }
+    else{
+      $(".menu-link").css({"color":"#fff"});   
+    }
 
-    })
-      
+  });
 })
