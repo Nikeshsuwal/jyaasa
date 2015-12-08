@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get 'article'
       get 'work'
       get 'contact'
+      get 'about'
     end
   end
   

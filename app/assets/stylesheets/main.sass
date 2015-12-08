@@ -50,7 +50,9 @@ h6
   margin-top: 50px
   margin-left: 100px
 .navbar-brand
-  padding-top: 35px
+  padding-top: 10px
+  position: fixed
+  z-index: 0
 #menu
   width: 20.625em !important
 
@@ -91,6 +93,7 @@ h6
   position: fixed
   right: 10%
   float: right
+  margin-top: 31px
   z-index: 0
   &:hover
     color: #ff4542
@@ -397,12 +400,18 @@ nav#menu.panel
         opacity: 100
 #blog
   background-color: #053f55
-  height: 150px
+  height: 100px
+  position: fixed
+  top: 0px
+  z-index: 10
+  left: 0px
+  width: 100%
 #blog-main-cnt
-  .blog-cnt
+  margin-top: 177px 
   .blog-cnt h3
     color: #ff4542
     font-size: 35px
+    margin-top: -30px
   .blog-cnt p
     font-size: 14px
     line-height: 22px
@@ -440,14 +449,20 @@ nav#menu.panel
   max-width: 800px
 #work
   background-color: #053f55
-  height: 150px
+  height: 100px
+  position: fixed
+  top: 0px
+  z-index: 10
+  left: 0px
+  width: 100%
 .work-wrapper
   margin: 0 auto
   max-width: 1200px
 #work-main-cnt
+  margin-top: 148px
   h3
     color: #FF4542
-    margin-top: 70px
+    margin-top: 20px
 
 
 .txt-details
@@ -515,15 +530,22 @@ nav#menu.panel
 
 #contact
   background-color: #053f55
-  height: 150px
+  height: 100px
+  position: fixed
+  top: 0px
+  z-index: 10
+  left: 0px
+  width: 100%
 .contact-wrapper
   margin: 0 auto
   max-width: 1200px
 #contact-main-cnt
+  margin-top: 148px
   h3
     color: #FF4542
-    margin-top: 70px
+    margin-top: 20px
     margin-bottom: 0px
+
 
 .tap-btn
   height: 40px
@@ -579,6 +601,17 @@ nav#menu.panel
   padding-top: 50px
   h1
     color: #273640
+.cont-info
+  margin-top: 82px
+  margin-bottom: 72px
+
+  p
+    font-size: 16px
+    color: #343d46
+    line-height: 22px
+    font-weight: bold 
+.cont-info-grp
+  margin-bottom: 15px
 .form-group
   margin-bottom: 0px
 .input-group
@@ -611,8 +644,61 @@ nav#menu.panel
   border: none
 .submit-btn
   margin-left: 0%
+.panel-title 
+  background-color: #0f3f63
+  max-width: 500px
+  color: #fff
+  &:hover
+    background-color: #6b98b9
+  a
+    text-decoration: none
+    padding: 10px 20px
+    display: block
 
+.panel-body
+  padding: 15px 40px
+  p
+    margin-left: -20px
 
+#about
+  background-color: #053f55
+  height: 100px
+  position: fixed
+  top: 0px
+  z-index: 10
+  left: 0px
+  width: 100%
+.about-wrapper
+  margin: 0 auto
+  max-width: 1200px
+
+#about-main-cnt
+  background: asset-url("img1.png") no-repeat center
+  -webkit-background-size: cover
+  -moz-background-size: cover
+  -o-background-size: cover
+  background-size: cover
+  font-family: open sans, helvetica, sans-serif  
+  width: 100%
+  height: 440px
+  margin-top: 100px
+
+#about-us-content
+  h3
+    color: #ff4542
+    font-size: 35px
+    margin-top: 68px
+  p
+    color: #343d46
+    font-size: 14px
+    line-height: 22px
+
+.talk-btn
+  border-radius: 0px
+  background: #F13A37 none repeat scroll 0% 0%
+  color: #FFF
+  margin-bottom: 150px
+  margin-top: 30px
 
 
 
