@@ -11,6 +11,7 @@ Rails.application.routes.draw do
       get 'work'
       get 'contact'
       get 'about'
+      get 'team'
     end
   end
   
