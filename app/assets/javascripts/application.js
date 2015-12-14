@@ -35,17 +35,17 @@ $(document).ready(function () {
 
 
 
-$(document).ready(function(){
-  $(window).scroll(function(){
-    if($(window).scrollTop() > $(window).height()){
-        $(".menu-link").css({"color":"#000"});   
-    }
-    else{
-      $(".menu-link").css({"color":"#fff"});   
-    }
+// $(document).ready(function(){
+//   $(window).scroll(function(){
+//     if($(window).scrollTop() > $(window).height()){
+//         $(".menu-link").css({"color":"#000"});   
+//     }
+//     else{
+//       $(".menu-link").css({"color":"#fff"});   
+//     }
 
-  });
-});
+//   });
+// });
 
 
 

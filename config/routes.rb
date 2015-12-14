@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       get 'contact'
       get 'about'
       get 'team'
+      get 'pro'
     end
   end
   
