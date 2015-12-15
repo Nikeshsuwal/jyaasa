@@ -63,3 +63,12 @@ $(document).ready(function() {
      // itemsMobile : false
   });
 });
+
+
+$(function(){
+  $('.main-menu ul').hide()
+  $('.nav-toggle').on('click',function(){
+    $('.main-menu ul').toggle();
+    $('.main-menu').toggleClass('open');
+  });
+})

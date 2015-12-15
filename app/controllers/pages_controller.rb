@@ -12,6 +12,7 @@ class PagesController < ApplicationController
   def team
   end
   def pro
-    
+  end
+  def community    
   end
 end

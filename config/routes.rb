@@ -13,6 +13,7 @@ Rails.application.routes.draw do
       get 'about'
       get 'team'
       get 'pro'
+      get 'community'
     end
   end
   
