@@ -10,28 +10,7 @@ section#team
         a.menu-link href="#menu"
           i.fa.fa-bars
     nav#menu.panel role="navigation" 
-      ul
-        li
-          .close
-            a.menu-close href="#menu"
-              i.fa.fa-times      
-        li
-          a href="/pages/index"  Home
-        li
-          a href="/pages/work"  Work
-        li
-          a href="/pages/team"  Team
-        li
-          a href="/pages/pro"  Process
-        li
-          a href="/pages/community"  Community
-        li
-          a href="/pages/article"  Blog
-        li
-          a href="/pages/contact"  Contact Us
-        li
-          a href="/pages/about"  About Us
-
+      = render 'right_navbar'
 
 #team-main-cnt
   .container
