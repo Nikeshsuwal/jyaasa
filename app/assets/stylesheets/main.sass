@@ -35,8 +35,16 @@ h6
   font-size: 16px
   line-height: 30px
   color: #a1adb8
+#header 
+  height: 100px
+  background-color: #053F55
+  width: 100%
+  position: fixed
+  top: 0px
+  z-index: 1
+  left: 0px
 
-#header
+#banner
   background: asset-url("banner-img.png") no-repeat center
   background-color: #ececec
   -webkit-background-size: cover
@@ -46,6 +54,7 @@ h6
   font-family: open sans, helvetica, sans-serif 
   height: 675px
   width: 100%
+  margin-top: 100px
 
 .logo-holder
   margin-top: 50px
@@ -236,7 +245,7 @@ h6
     overflow: hidden
     &:hover >a>.mask
       top: 0px
-      z-index: 10
+      z-index: 0px
     a img
       width: 100%
   .mask
@@ -400,7 +409,7 @@ nav#menu.panel
   height: 100px
   position: fixed
   top: 0px
-  z-index: 10
+  z-index: 1
   left: 0px
   width: 100%
 #blog-main-cnt
@@ -481,7 +490,7 @@ nav#menu.panel
   overflow: hidden
   &:hover >a>.effect
     top: 0px
-    z-index: 10
+    z-index: 1
   a img
     width: 100%
 .effect
@@ -528,7 +537,7 @@ nav#menu.panel
   height: 100px
   position: fixed
   top: 0px
-  z-index: 10
+  z-index: 1
   left: 0px
   width: 100%
 .contact-wrapper
@@ -660,7 +669,7 @@ nav#menu.panel
   height: 100px
   position: fixed
   top: 0px
-  z-index: 10
+  z-index: 1
   left: 0px
   width: 100%
 
@@ -704,7 +713,7 @@ nav#menu.panel
   height: 100px
   position: fixed
   top: 0px
-  z-index: 10
+  z-index: 1
   left: 0px
   width: 100%
 #team-main-cnt
@@ -737,12 +746,13 @@ nav#menu.panel
     a
       text-decoration: none
       margin-left: -75px
-#process
+#process,
+#community
   background-color: #053f55
   height: 100px
   position: fixed
   top: 0px
-  z-index: 10
+  z-index: 1
   left: 0px
   width: 100%
 .process-text-holder
@@ -800,7 +810,13 @@ nav#menu.panel
       color: #fff
       font-size: 85px
       padding: 20%
-
+.community-cnt
+  h3
+    color: #ff4542
+    margin-top: 167px
+  p
+    font-size: 16px
+    line-height: 27px
 
 
 
@@ -850,8 +866,6 @@ nav#menu.panel
 
 //Large desktops and laptops 
 @media (min-width: 1200px) 
-  #header
-    height: 675px
 Landscape tablets and medium desktops 
 @media (min-width: 992px) and (max-width: 1199px) 
   #footer-top .footer-left-btn
@@ -912,9 +926,7 @@ Landscape tablets and medium desktops
   #contact-main-cnt h3
     font-size: 30px
     margin-top: 38px
-@media (max-width: 768px) 
-  #header
-    height: 578px
+@media (max-width: 768px)
   #banner p
     margin-top: 35px
   #banner .arrow
@@ -938,7 +950,6 @@ Landscape tablets and medium desktops
 Portrait phones and smaller 
 @media (max-width: 480px) 
   #header
-    height: 630px
   .navbar-brand > img
     width: 75%
   .menu-link i
@@ -1006,8 +1017,6 @@ Portrait phones and smaller
     padding: 5px
     font-size: 10px
 @media screen and (max-device-width:320px) and (max-device-height:480px)
-  #header
-    height: 481px
   #banner .arrow
     margin-top: 84px
     width: 50px
@@ -1092,8 +1101,6 @@ Portrait phones and smaller
 
 
 @media screen and (max-device-width:320px) and (device-height:568px)
-  #header
-    height: 570px
   #banner .arrow
     margin-top: 30px
  
