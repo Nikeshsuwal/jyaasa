@@ -53,7 +53,9 @@ section#what-we-do
         .col-md-4.text-center
           .cir2
             =image_tag "our-product.png"
-          button.btn.btn-default.wt-we-do-btn type="button"  our product
+          =link_to "our product", work_pages_path, class: 'btn btn-default wt-we-do-btn'
+        /button.btn.btn-default.our-work-btn type="button"  our product 
+          
         .col-md-4.text-center 
           .cir3
             =image_tag "open-source.png"
@@ -94,7 +96,9 @@ section#our-work
                       |Double Dog
                     button.btn.btn-default.mask-btn type="button"  case study
                   =image_tag "work-3.png"
-      button.btn.btn-default.our-work-btn type="button"  see more of our work
+          =link_to "see more of our work", work_pages_path, class: 'btn btn-default our-work-btn'
+        /button.btn.btn-default.our-work-btn type="button"  see more of our work      
+      
 section#our-team
   .container
     .our-team-content.text-center
@@ -141,8 +145,8 @@ section#our-team
                 |Nikesh Suwal
               p
                 |Front End Designer
-
-        button.btn.btn-default.our-team-btn type="button"  more about our team
+          =link_to "more about our team", team_pages_path, class: 'btn btn-default our-team-btn'
+        /button.btn.btn-default.our-team-btn type="button"  more about our team
 section#footer-top
   .container
     .footer-top-content
@@ -150,7 +154,8 @@ section#footer-top
         .txt
           |Would you like us to help you in your next project?
       .col-md-6
-        button.btn.btn-default.footer-left-btn type="button"  get in touch
+          =link_to "get in touch", contact_pages_path, class: 'btn btn-default footer-left-btn'
+      /button.btn.btn-default.footer-left-btn type="button"  get in touch
     .arrow-up
       =link_to "#banner" do
         i.fa.fa-angle-up
@@ -214,13 +219,16 @@ section#footer
                 i.fa.fa-twitter
             li
               i.fa.fa-map-marker 
-              a herf="#" Lalitpur, Nepal
+              p
+                |Lalitpur, Nepal
             li
               i.fa.fa-phone 
-              a herf="#" +977-987654321
+              p
+                |+977-987654321
             li 
-              i.fa.fa-envelope-o 
-              a herf="#" Hello@jyaasa.com
+              i.fa.fa-envelope-o
+            p 
+              |Hello@jyaasa.com
       .footer-btom-content
        p
          |Copyright © 2015 -2016. All Right Reserved
