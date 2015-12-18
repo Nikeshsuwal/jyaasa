@@ -14,6 +14,8 @@ Rails.application.routes.draw do
       get 'team'
       get 'pro'
       get 'community'
+      get 'case_study'
+      
     end
   end
   

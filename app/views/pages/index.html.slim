@@ -48,7 +48,8 @@ section#what-we-do
         .col-md-4.text-center
           .cir1
             =image_tag "clint-work.png"
-          button.btn.btn-default.wt-we-do-btn type="button"  client work
+          =link_to "clint-work", work_pages_path, class: 'btn btn-default wt-we-do-btn'
+          /button.btn.btn-default.wt-we-do-btn type="button"  client work
 
         .col-md-4.text-center
           .cir2
@@ -59,7 +60,8 @@ section#what-we-do
         .col-md-4.text-center 
           .cir3
             =image_tag "open-source.png"
-          button.btn.btn-default.wt-we-do-btn type="button"  open source
+          =link_to "open-source", work_pages_path, class: 'btn btn-default wt-we-do-btn'
+        /button.btn.btn-default.wt-we-do-btn type="button"  open source
 section#our-work
   .container
     .our-work-content.text-center
@@ -181,32 +183,32 @@ section#footer
             span.highline_line
           ul  
             li
-              a href="#" Home
+              a href="/" Home
             li
-              a href="#" Work
+              a href="/pages/work" Work
             li
-              a href="#" Team
+              a href="/pages/team" Team
             li 
-              a href="#" Process
+              a href="/pages/pro" Process
             li
-              a href="#" Community
+              a href="/pages/community" Community
             li
-              a href="#" Blog
+              a href="/pages/blog" Blog
             li
-              a href="#" Contact Us
+              a href="/pages/contact" Contact Us
             li 
-              a href="#" About Us
+              a href="/pages/about" About Us
         .col-md-3
           h5 
             |Product
             span.highline_line
           ul
             li
-              a herf="#" Emitii
+              a herf="http://emitii.com/" Emitii
             li
               a herf="#" Todo app
             li
-              a herf="#" Talk Ruby
+              a herf="http://www.talk-ruby.com/" Talk Ruby
         .col-md-3
           h5 
             |Connect With Us
@@ -214,8 +216,11 @@ section#footer
           ul
             li
               span
+              a href="http://facebook.com/"
                 i.fa.fa-facebook
+              a href="https://mail.google.com/mail/u/0//"
                 i.fa.fa-google-plus
+              a href="https://twitter.com/"
                 i.fa.fa-twitter
             li
               i.fa.fa-map-marker 

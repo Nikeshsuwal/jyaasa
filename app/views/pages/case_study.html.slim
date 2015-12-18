@@ -1,0 +1,54 @@
+section#process
+  nav.navbar.navbar-default
+    .container
+      .row
+        .col-md-6
+         .navbar-header
+            a.navbar-brand href="/" 
+             =image_tag "logo.png"
+      .wrap
+        a.menu-link href="#menu"
+          i.fa.fa-bars
+    nav#menu.panel role="navigation" 
+      = render 'right_navbar'
+
+#nextpage-main-cnt
+  .container
+    a href="http://cookedlocal.com/"
+     =image_tag "cooked-local.png"
+    li
+      a href="http://cookedlocal.com/" Visit Site
+      a href="#"
+        i.fa.fa-angle-double-right
+    p
+      |Cooklocal Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit metus sed augue
+      br
+        |ultricies luctus Aenean nec odio sit amet neque semper consequat.
+.clint-sec
+  .container
+    .row
+      .col-md-7
+        .clint-cont
+          p
+            |The marketing site and build up to Tropos’ launch were highly considered. We generated a Middleman app with thoughtbot’s Proteus framework and we drove traffic to the site before launch to capture email addresses. When the app launched, we emailed the mailing list.
+      .col-md-5
+        .john
+          .roundthumb
+            =image_tag "john.png"
+          p
+            |Pretty and simple weather app from the guys at
+            br
+              |@ jyaasa. very nice
+          h1
+            |- john Doe
+.nextpage-cnt
+  .container
+    p
+      |Concept Fusce rhoncus neque nisi. Cras semper elit id ipsum mollis, at rutrum tortor vestibulum. Sed auctor velit et diam rutrum, eu ultricies nisl consequat. Fusce blandit tortor augue, eu pulvinar odio porttitor quis. Donec non ligula lacus. Sed efficitur mollis enim eu porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare nisi sed accumsan consectetur.
+      Fusce rhoncus neque nisi. Cras semper elit id ipsum mollis, at rutrum tortor vestibulum. Sed auctor velit et diam rutrum, eu ultricies nisl consequat. Fusce blandit tortor augue, eu pulvinar odio porttitor quis. Donec non ligula lacus. Sed efficitur mollis enim eu porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare nisi sed accumsan consectetur.
+      Concept Fusce rhoncus neque nisi. Cras semper elit id ipsum mollis, at rutrum tortor vestibulum. Sed auctor velit et diam rutrum, eu ultricies nisl consequat. Fusce blandit tortor augue, eu pulvinar odio porttitor quis. Donec non ligula lacus. Sed efficitur mollis enim eu porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare nisi sed accumsan consectetur.
+    p
+      |The Idea …Sed in ex massa. Maecenas sodales lectus dignissim orci dapibus tincidunt. Sed et rutrum ex. Donec non auctor enim. Sed magna tellus, gravida id volutpat a, suscipit sit amet eros. In condimentum id ex ut finibus. Nunc ante augue, pretium vel neque et, feugiat faucibus est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse suscipit turpis consectetur consequat commodo. Fusce blandit nibh dui. Vestibulum tristique, turpis quis vulputate consectetur, urna elit sodales mi, sed venenatis sem justo ac sem. Vivamus quis ullamcorper lorem. Nunc dictum
+    p
+      |The Idea …Sed in ex massa. Maecenas sodales lectus dignissim orci dapibus tincidunt. Sed et rutrum ex. Donec non auctor enim. Sed magna tellus, gravida id volutpat a, suscipit sit amet eros. In condimentum id ex ut finibus. Nunc ante augue, pretium vel neque et, feugiat faucibus est. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse suscipit turpis consectetur consequat commodo. Fusce blandit nibh dui. Vestibulum tristique, turpis quis vulputate consectetur, urna elit sodales mi, sed venenatis sem justo ac sem. Vivamus quis ullamcorper lorem. Nunc dictum
+    =link_to "Want us to work for you click here", contact_pages_path, class: 'btn btn-default click-btn'

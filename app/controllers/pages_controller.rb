@@ -13,6 +13,9 @@ class PagesController < ApplicationController
   end
   def pro
   end
-  def community    
+  def community
+  end
+  def case_study
+
   end
 end
