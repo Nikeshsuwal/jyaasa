@@ -3,7 +3,9 @@
 //= require classie
 //= require showRight
 //= require slide
+//= require pages
 //= require owl.carousel
+
 
 
 

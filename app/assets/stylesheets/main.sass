@@ -35,16 +35,7 @@ h6
   font-size: 16px
   line-height: 30px
   color: #a1adb8
-#header 
-  height: 100px
-  background-color: #053F55
-  width: 100%
-  position: fixed
-  top: 0px
-  z-index: 1
-  left: 0px
-    font:
-      size: 18px
+
 
   
 .main-menu.open
@@ -68,7 +59,6 @@ h6
   font-family: open sans, helvetica, sans-serif 
   height: 675px
   width: 100%
-  margin-top: 100px
 
 .logo-holder
   margin-top: 50px
@@ -76,6 +66,8 @@ h6
 .navbar-brand
   padding-top: 10px
   z-index: 0
+.banner-content.text-center
+  padding-top: 70px
 #menu
   width: 20.625em !important
 
@@ -379,7 +371,6 @@ h6
       padding-left: 0px
       list-style: none
       margin-left: -40px
-      cursor: pointer
       color: #c2c0c0
   li,
     a
@@ -397,7 +388,10 @@ h6
   li
     i
       margin-right: 10px
-      line-height: 20px
+      font-size: 16px
+      padding: 5px 10px
+      width: 33px
+
 
 .footer-btom-content
   p
@@ -428,7 +422,8 @@ nav#menu.panel
   left: 0px
   width: 100%
 #blog-main-cnt
-  margin-top: 177px 
+  margin-top: 177px
+  margin-bottom: 75px
   .blog-cnt h3
     color: #ff4542
     font-size: 35px
@@ -481,6 +476,7 @@ nav#menu.panel
   max-width: 1200px
 #work-main-cnt
   margin-top: 148px
+  margin-bottom: 74px
   h3
     color: #FF4542
     margin-top: 20px
@@ -702,6 +698,7 @@ nav#menu.panel
   margin-top: 100px
  
 #about-us-content
+  margin-bottom: 100px
   h3
     color: #ff4542
     font-size: 35px
@@ -726,10 +723,8 @@ nav#menu.panel
   border-radius: 0px
   background: #F13A37 none repeat scroll 0% 0%
   color: #FFF
-  margin-bottom: 150px
   margin-top: 30px
   padding: 10px 20px
-  margin-left: 45%
   &:hover
     background: #ff4542
     color: #fff
@@ -742,7 +737,8 @@ nav#menu.panel
   left: 0px
   width: 100%
 #team-main-cnt
-  margin-top: 177px 
+  margin-top: 177px
+  margin-bottom: 90px
   .team-cnt h3
     color: #ff4542
     font-size: 35px
@@ -771,6 +767,7 @@ nav#menu.panel
     a
       text-decoration: none
       margin-left: -75px
+      color: #fff
 #process,
 #community
   background-color: #053f55
@@ -821,7 +818,7 @@ nav#menu.panel
   color: #666
 .process-cnt
   margin-top: 120px
-  margin-bottom: 120px
+  margin-bottom: 85px
   p
     color: #273640
     text-align: justify
@@ -869,7 +866,7 @@ nav#menu.panel
   margin-top: 50px
   cursor: pointer
 .community-main-cnt 
-  margin-bottom: 80px
+  margin-bottom: 90px
 
 #nextpage-main-cnt
   background-color: #cccccc
@@ -927,8 +924,28 @@ nav#menu.panel
   padding: 10px 20px
   margin-top: 100px
   font-size: 20px
-
-
+.sticky-header 
+  height: 100px
+  background: transparent
+  width: 100%
+  position: fixed
+  top: 0px
+  z-index: 1
+  left: 0px
+    font:
+      size: 18px
+  transition: background .5s ease
+  -moz-transition: background .5s ease
+  -webkit-transition: background .5s ease
+.fixed
+  position: fixed 
+  top: 0
+  width: 100%
+  z-index: 99
+  background: #0f3f63
+  transition: background .5s ease
+  -moz-transition: background .5s ease
+  -webkit-transition: background .5s ease
 
 
 
@@ -1075,7 +1092,7 @@ Portrait phones and smaller
   .banner-content p
     margin-top: 30px
   .navbar-brand > img
-    margin-top: -20px
+  
   .banner-content h2
     font-size: 40px
     line-height: 50px

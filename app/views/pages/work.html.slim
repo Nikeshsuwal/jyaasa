@@ -99,88 +99,32 @@ section#work-main-cnt
               a href="/pages/case_study" Welcome to DoubleDog
             p
               |Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit metus sed augue ultricies luctus. Aenean nec odio sit amet neque semper consequat. Ut nec nibh sodalesLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit metus sed augue ultricies luctus. Aenean nec odio sit amet neque semper consequat. Ut nec nibh sodales.<span>read more »</span>
-    .text-center
-      .pagination
-        ul.clearfix
-          li
-            a href="#" 1
-          li
-            a href="#" 2
-          li.next
-            i.fa.fa-angle-right
+    .work-cont
+      .row
+        .col-md-6
+          .work-img
+            a href="http://www.designerex.com.au/" target="_blank"
+              .effect
+                p
+                  |Welcome to DoubleDog
+                button.btn.btn-default.work-btn type="button"  Visit site
+              =image_tag "designerex.png"
+        .col-md-6
+          .txt-details
+            li
+              a href="/pages/case_study" Welcome to DoubleDog
+            p
+              |Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit metus sed augue ultricies luctus. Aenean nec odio sit amet neque semper consequat. Ut nec nibh sodalesLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit metus sed augue ultricies luctus. Aenean nec odio sit amet neque semper consequat. Ut nec nibh sodales.<span>read more »</span>
+    / .text-center
+    /   .pagination
+    /     ul.clearfix
+    /       li
+    /         a href="#" 1
+    /       li
+    /         a href="#" 2
+    /       li.next
+    /         i.fa.fa-angle-right
 
 
     
-section#footer
-  .container
-    .footer-content
-      .row
-        .col-md-3
-          h5 
-            |Service
-            span.highline_line
-          ul 
-            li
-              a href="#" Workshop
-            li
-              a href="#" Consulting
-
-            li
-              a href="#" Development
-        .col-md-3
-          h5
-            |Sitemap
-            span.highline_line
-          ul  
-            li
-              a href="/" Home
-            li
-              a href="/pages/work" Work
-            li
-              a href="/pages/team" Team
-            li 
-              a href="/pages/pro" Process
-            li
-              a href="/pages/community" Community
-            li
-              a href="/pages/blog" Blog
-            li
-              a href="/pages/contact" Contact Us
-            li 
-              a href="/pages/about" About Us
-        .col-md-3
-          h5 
-            |Product
-            span.highline_line
-          ul
-            li
-              a herf="http://emitii.com/" Emitii
-            li
-              a herf="#" Todo app
-            li
-              a herf="#" Talk Ruby
-        .col-md-3
-          h5 
-            |Connect With Us
-            span.highline_line
-          ul
-            li
-              span
-                i.fa.fa-facebook
-                i.fa.fa-google-plus
-                i.fa.fa-twitter
-            li
-              i.fa.fa-map-marker 
-              p
-                |Lalitpur, Nepal
-            li
-              i.fa.fa-phone 
-              p
-                |+977-987654321
-            li 
-              i.fa.fa-envelope-o
-            p 
-              |Hello@jyaasa.com
-      .footer-btom-content
-       p
-         |Copyright © 2015 -2016. All Right Reserved
+= render partial: 'pages/footer'
